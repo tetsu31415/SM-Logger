@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_select">項目を選択</string>
+    <string name="get_shell_access">Shell権限を取得</string>
+    <string name="get_shell_access_description">この端末をPCにadb接続し以下のコマンドを打ってください。その後、「Shell権限を取得」を押してください。失敗する場合は「adb serverを再起動」してください。</string>
+    <string name="restart_adb">adb serverを再起動\n(TerminalEmulatorが起動)</string>
+    <string name="install_terminal">TerminalEmulatorをインストールしてください</string>
+ 	<string name="started_logcat">Logcatの取得を開始しました。サービスモード起動時に自動的にログを収集します。</string>
+ 	<string name="show_log">ログを表示</string>
+ 	<string name="start_logging">ログ収集を開始</string>
+ 	<string name="stop_logging">ログ収集を停止</string>
+ 	<string name="from_time">開始時刻</string>
+ 	<string name="to_time">終了時刻</string>
+ 	<string name="wrong_time">誤った時間が入力されました</string>
+ 	<string name="edit_item">表示する項目を編集</string>
+ 	<string name="loading">Loading…</string>
+ 	<string name="not_found">見つかりませんでした</string>
+ 	<string name="select_itme">項目を選択</string>
+ 	<string name="condition">検索条件</string> 	
+ 	<string name="logging">ログ収集中…</string>
+ 	<string name="wrong_query">検索条件が不正です</string>
+ 	<string name="backup_db">データベースをバックアップ</string>
+ 	<string name="search_ex">検索条件 入力例\n\n・Bandが18のものを表示 \n\"LTE Band:18\"\n\n・Band1かつ幅が20MHzのものを表示\n\"LTE Band:1\" AND \"LTE DL BW:20MHz\"\n\n・Band1またはBand18を表示\n\"LTE Band:1\" OR \"LTE Band:18\"\n\n・Band1を除く\nNOT \"LTE Band:1\"</string>
+</resources>
