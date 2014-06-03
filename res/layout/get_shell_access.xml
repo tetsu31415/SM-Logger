@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="5sp"
+    android:orientation="vertical" >
+    
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/get_shell_access"
+	    android:gravity="center_horizontal"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	<TextView
+	
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/get_shell_access_description"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#333333"
+	    android:textColor="#FFFFFF"
+	    android:gravity="center_horizontal"
+	    android:padding="10dp"
+	    android:text="adb tcpip 5555"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/get_shell_access" />
+	
+	<Button
+	    android:id="@+id/button2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/restart_adb" />
+
+	<EditText
+	    android:id="@+id/editText1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:ems="10"
+	    android:focusable="false"
+	    android:gravity="top|left" >
+	
+	    <requestFocus />
+	</EditText>
+
+
+</LinearLayout>
